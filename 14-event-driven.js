@@ -1,7 +1,7 @@
 const EventEmitter=require('events');
 
 
-const custoEmiiter=new EventEmitter();
+const custoEmiiter=new EventEmitter();//event emitter class
 
 
 custoEmiiter.on('response',()=>{
